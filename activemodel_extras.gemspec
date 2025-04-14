@@ -5,8 +5,8 @@ require_relative "lib/active_model_extras/version"
 Gem::Specification.new do |spec|
   spec.name          = "activemodel_extra"
   spec.version       = ActiveModelExtras::VERSION
-  spec.authors       = ["Aha! Dev Team"]
-  spec.email         = ["dev@aha.io"]
+  spec.authors       = ["Aha!"]
+  spec.email         = ["support@aha.io"]
 
   spec.summary       = %q{Extensions for ActiveModel providing array types, nested models, and array validation}
   spec.description   = %q{A collection of useful extensions to ActiveModel including array types, nested model support, and array validation}
