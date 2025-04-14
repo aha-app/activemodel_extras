@@ -4,7 +4,7 @@ require_relative "lib/activemodel-extra/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "activemodel-extra"
-  spec.version       = ActivemodelExtra::VERSION
+  spec.version       = ActiveModelExtra::VERSION
   spec.authors       = ["Aha! Dev Team"]
   spec.email         = ["dev@aha.io"]
 

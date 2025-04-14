@@ -63,7 +63,7 @@ The `NestedModel` module allows you to use ActiveModel classes as attribute type
 class Address
   include ActiveModel::Model
   include ActiveModel::Attributes
-  extend ActivemodelExtra::NestedModel
+  extend ActiveModelExtra::NestedModel
 
   attribute :street, :string
   attribute :city, :string
@@ -135,7 +135,7 @@ All these features work together seamlessly:
 class Comment
   include ActiveModel::Model
   include ActiveModel::Attributes
-  extend ActivemodelExtra::NestedModel
+  extend ActiveModelExtra::NestedModel
   
   attribute :text, :string
   attribute :rating, :integer

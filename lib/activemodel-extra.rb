@@ -9,5 +9,5 @@ require_relative "activemodel-extra/nested_model"
 require_relative "active_model/type/array"
 require_relative "active_model/validations/array_validator"
 
-module ActivemodelExtra
+module ActiveModelExtra
 end

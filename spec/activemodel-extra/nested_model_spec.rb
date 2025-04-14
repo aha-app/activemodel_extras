@@ -2,12 +2,12 @@
 
 require "spec_helper"
 
-RSpec.describe ActivemodelExtra::NestedModel do
+RSpec.describe ActiveModelExtra::NestedModel do
   # Define test classes
   class Address
     include ActiveModel::Model
     include ActiveModel::Attributes
-    extend ActivemodelExtra::NestedModel
+    extend ActiveModelExtra::NestedModel
 
     attribute :street, :string
     attribute :city, :string

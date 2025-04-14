@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module ActivemodelExtra
+module ActiveModelExtra
   # NestedModel provides support for nested model attributes in ActiveModel
   # This allows you to use ActiveModel classes as attribute types and have them
   # properly cast from hashes to model instances
@@ -9,7 +9,7 @@ module ActivemodelExtra
   #   class Address
   #     include ActiveModel::Model
   #     include ActiveModel::Attributes
-  #     extend ActivemodelExtra::NestedModel
+  #     extend ActiveModelExtra::NestedModel
   #
   #     attribute :street, :string
   #     attribute :city, :string
