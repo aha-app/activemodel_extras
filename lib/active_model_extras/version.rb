@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module ActiveModelExtra
+module ActiveModelExtras
   VERSION = "0.1.0"
 end

@@ -11,7 +11,7 @@ ActiveModel Extra provides powerful extensions to ActiveModel that fill common g
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'activemodel-extra'
+gem 'active_model_extras'
 ```
 
 And then execute:
@@ -23,7 +23,7 @@ $ bundle install
 Or install it yourself as:
 
 ```
-$ gem install activemodel-extra
+$ gem install active_model_extras
 ```
 
 ## Usage
@@ -63,7 +63,7 @@ The `NestedModel` module allows you to use ActiveModel classes as attribute type
 class Address
   include ActiveModel::Model
   include ActiveModel::Attributes
-  extend ActiveModelExtra::NestedModel
+  extend ActiveModelExtras::NestedModel
 
   attribute :street, :string
   attribute :city, :string
@@ -135,7 +135,7 @@ All these features work together seamlessly:
 class Comment
   include ActiveModel::Model
   include ActiveModel::Attributes
-  extend ActiveModelExtra::NestedModel
+  extend ActiveModelExtras::NestedModel
   
   attribute :text, :string
   attribute :rating, :integer
@@ -179,7 +179,7 @@ post.errors.full_messages  # => ["Comments contains invalid comment"]
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/aha-app/activemodel-extra.
+Bug reports and pull requests are welcome on GitHub at https://github.com/aha-app/active_model_extras.
 
 ## License
 

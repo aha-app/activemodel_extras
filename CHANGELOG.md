@@ -15,6 +15,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `ActiveModel::Validations::ArrayValidator`: Apply any validator to each element in an array
     - Works with all built-in Rails validators (inclusion, numericality, etc.)
     - Supports custom validators
-  - `ActiveModelExtra::NestedModel`: Module for using ActiveModel classes as attribute types
+  - `ActiveModelExtras::NestedModel`: Module for using ActiveModel classes as attribute types
     - Automatic casting from hashes to model instances
     - Seamless integration with the array type for arrays of models

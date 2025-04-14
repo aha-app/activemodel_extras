@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in activemodel-extra.gemspec
+# Specify your gem's dependencies in active_model_extras.gemspec
 gemspec
