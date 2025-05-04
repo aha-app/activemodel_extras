@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     activemodel_extra (0.1.0)
-      activemodel (>= 6.0)
-      activesupport (>= 6.0)
+      activemodel (>= 7.0)
+      activesupport (>= 7.0)
 
 GEM
   remote: https://rubygems.org/
