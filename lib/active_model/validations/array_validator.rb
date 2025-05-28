@@ -34,9 +34,7 @@ module ActiveModel
 
         # If not found, try the ActiveModel::Validations namespace
         # e.g., 'ActiveModel::Validations::InclusionValidator'
-        unless validator
-          validator = "ActiveModel::Validations::#{type.to_s.camelize}Validator".constantize
-        end
+        validator ||= "ActiveModel::Validations::#{type.to_s.camelize}Validator".constantize
 
         validator.new(_parse_validates_options(options).merge(attributes: attributes))
       end

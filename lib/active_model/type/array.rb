@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module ActiveModel
-  module Type
+  module Type # :nodoc:
     # Array type for ActiveModel that supports casting array elements to a specified subtype
     #
     # Example:
