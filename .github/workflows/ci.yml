@@ -8,6 +8,7 @@ on:
 
 jobs:
   test:
+    name: Ruby ${{ matrix.ruby }} / Rails ${{ matrix.activemodel }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -16,7 +17,7 @@ jobs:
         activemodel: ['7.0', '7.1', '7.2', '8.0']
 
     env:
-      BUNDLE_GEMFILE: gemfiles/activemodel-${{ matrix.activemodel }}.gemfile
+      BUNDLE_GEMFILE: gemfiles/activemodel_${{ matrix.activemodel }}.gemfile
 
     steps:
       - uses: aha-app/checkout@v4
