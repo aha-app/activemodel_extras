@@ -19,9 +19,9 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/activemodel-${{ matrix.activemodel }}.gemfile
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: aha-app/checkout@v4
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: aha-app/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
@@ -40,9 +40,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: aha-app/checkout@v4
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: aha-app/setup-ruby@v1
         with:
           ruby-version: '3.4'
           bundler-cache: true
@@ -59,9 +59,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: aha-app/checkout@v4
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: aha-app/setup-ruby@v1
         with:
           ruby-version: '3.4'
           bundler-cache: true
