@@ -1,6 +1,7 @@
 AllCops:
   NewCops: enable
   Exclude:
+    - 'vendor/**/*'
     - 'gemfiles/**/*'
     - 'Appraisals'
     - 'Gemfile'
