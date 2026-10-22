@@ -30,7 +30,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/activemodel_${{ matrix.activemodel }}.gemfile
 
     steps:
-      - uses: aha-app/checkout@v4
+      - uses: aha-app/actions-checkout@v4.2.2
       - name: Set up Ruby
         uses: aha-app/setup-ruby@v1
         with:
@@ -51,7 +51,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: aha-app/checkout@v4
+      - uses: aha-app/actions-checkout@v4.2.2
       - name: Set up Ruby
         uses: aha-app/setup-ruby@v1
         with:
@@ -70,7 +70,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: aha-app/checkout@v4
+      - uses: aha-app/actions-checkout@v4.2.2
       - name: Set up Ruby
         uses: aha-app/setup-ruby@v1
         with:
